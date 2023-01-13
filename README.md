@@ -16,7 +16,7 @@ The Datatable is Managed by Custom Metadata (Columns Headers, KeyField will be I
     
 3. Field (KeyField__c) will be Used to Identify the KeyField for HTML
 4. Endpoint is Generic Field can be used to store Endpoint Information for API Calls etc..
-5. Once the Datatable LWC Component is Deployed & The Input Field (calloutName) Can be Used to Link with the Custom Metadata DeveloperName by doing this it will take the structure from the respective fields and prepare the table.
+5. Once the Datatable LWC Component is Deployed & The Input Field (calloutName) Can be Used to Link with the Custom Metadata DeveloperName by doing this it will take the structure from the respective fields and prepare columns,keyFields Information in Apex & returns back to LWC Component.
 
 
 Feel Free to Create a Pull Request in Future if you find any enhancements.....May the force be with you...
