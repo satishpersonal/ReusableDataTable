@@ -5,7 +5,7 @@ export default class DataTable extends LightningElement {
     @track columns;
     @track keyField;
     @track error;
-    //To be Replaced Dynamically in Future from Apex
+    //To be Replaced Dynamically From Apex
     data = [{
         "organisationId": "-1",
         "entityName": "Wepfer Marine Inc",
