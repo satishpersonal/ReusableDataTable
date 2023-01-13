@@ -2,12 +2,12 @@
 
 The Datatable is Managed by Custom Metadata (Columns Headers, KeyField will be Ideally  Linked to Endpoint) -- Carefully Manage the Custom Metadata for the code to work properly
 
-1. Lightning Data Table Ideal Expection of Coulmns will be in Below Type.
+1. Lightning Data Table Ideal Expection of Coulmns will be in Below Type.<br/>
     { label: 'organisationId', fieldName: 'organisationId',type : 'text' }, <br/>
     { label: 'entityName', fieldName: 'entityName', type : 'text' },<br/>
     { label: 'entityIMONumber', fieldName: 'entityIMONumber', type : 'text' }
     
-2. In our Custom metadata Records the Field (Table_Columns__c) will Manage the same in the below Format. 
+2. In our Custom metadata Records the Field (Table_Columns__c) will Manage the same in the below Format. <br/>
     organisationId:organisationId:text,<br/>
     entityName:entityName:text,<br/>
     entityIMONumber:entityIMONumber:text <br/>
