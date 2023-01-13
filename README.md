@@ -3,14 +3,14 @@
 The Datatable is Managed by Custom Metadata (Columns Headers, KeyField will be Ideally  Linked to Endpoint) -- Carefully Manage the Custom Metadata for the code to work properly
 
 1. Lightning Data Table Ideal Expection of Coulmns will be in Below Type.
-    { label: 'organisationId', fieldName: 'organisationId',type : 'text' },
-    { label: 'entityName', fieldName: 'entityName', type : 'text' },
+    { label: 'organisationId', fieldName: 'organisationId',type : 'text' }, <br/>
+    { label: 'entityName', fieldName: 'entityName', type : 'text' },<br/>
     { label: 'entityIMONumber', fieldName: 'entityIMONumber', type : 'text' }
     
 2. In our Custom metadata Records the Field (Table_Columns__c) will Manage the same in the below Format. 
-    organisationId:organisationId:text,
-    entityName:entityName:text,
-    entityIMONumber:entityIMONumber:text
+    organisationId:organisationId:text,<br/>
+    entityName:entityName:text,<br/>
+    entityIMONumber:entityIMONumber:text <br/>
     
     Note : Please don't change Special Characters Symbols. If you need a change the Apex Code must be adjusted accordingly.
     
